@@ -1,7 +1,7 @@
-name: "MGI_Index"
+name: MGI_Index
 output_dir: ../docs
 navbar:
-  title: "MGI_Index"
+  title: MGI_Index
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/nhihin/MGI_Index
 output:
   workflowr::wflow_html:
     toc: yes
